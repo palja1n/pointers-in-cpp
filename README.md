@@ -19,7 +19,7 @@ The `&` operator retrieves the address of a variable, while the `*` operator acc
 
 # Programs on Pointers
 
-## 1. Pointer Increment Demonstration
+## 1. Basic Arithmetic Pointer – Increment of Pointer
 
 Algorithm:  
 1. Declare variables of various types (int, bool, double, float)  
@@ -32,7 +32,7 @@ Algorithm:
 Explanation:
 Increasing a pointer moves it to the next memory block for its type, so the step size depends on the size of the data type it points to, not just one byte.
 
-## 2. Arithmetic on Array Elements via Pointers
+## 2. Arithmetic operations on Array using Pointers
 Algorithm: 
 1. Define an integer array  
 2. Point two separate pointers to specific positions in the array  
@@ -43,7 +43,7 @@ Algorithm:
 Explanation: 
 By pointing directly to array elements, operations like addition and subtraction can be done without using array indexing.
 
-## 3. Displaying String Characters with a Pointer
+## 3. Displaying String Characters using a Pointer
 Algorithm: 
 1. Read a string from user input  
 2. Assign a pointer to the first character  
@@ -53,18 +53,19 @@ Algorithm:
 Explanation:  
 A char pointer can be moved through a string sequentially, printing each character until the end marker is found.
 
-## 4. Reverse Traversal of an Array Using Pointers
+## 4. Reversing an Array Using Pointers
 Algorithm: 
-1. Create an integer array with predefined values  
-2. Calculate its length using `sizeof`  
-3. Display elements in normal order using indexing  
-4. Assign a pointer to the last element  
-5. Loop backwards, printing each value by decrementing the pointer
-   
+1. Begin  
+2. Define an integer array containing 5 values.  
+3. Prepare an array of integer pointers, each pointing to the corresponding element’s address.  
+4. Use a loop to display the elements in forward order.  
+5. Use another loop to display the elements in reverse order.
+6. End
+
 Explanation: 
 Starting from the last element and stepping backward lets us print the array in reverse without using indexing.
 
-# Conclusion
+# Conclusion:
 Pointers are a core feature of C++ that allow programmers to work directly with memory addresses, leading to more control and flexibility.  
 From these programs we learned how to:  
 - Access and modify values through pointers  
