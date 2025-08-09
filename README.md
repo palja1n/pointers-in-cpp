@@ -5,7 +5,7 @@ Class: ENTC A3
 PRN: 24070123067  
 Title: Programs on Pointers in C++
 
-# Definition of Pointer
+# Pointers:
 A pointer in C++ is a special type of variable that stores the address of another variable in memory rather than holding the actual data.  
 They make it possible to:  
 - Access and modify memory locations directly  
